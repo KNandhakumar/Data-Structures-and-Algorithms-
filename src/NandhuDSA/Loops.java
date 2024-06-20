@@ -12,8 +12,16 @@ public class Loops {
          */
 
         // Question : Print numbers from 1 to 5
-        for (int i=1; i<=5; i++){
-            System.out.println(i);
+//        for (int i=1; i<=5; i++){
+//            System.out.println(i);
+//        }
+
+        // print numbers from 1 to n
+        Scanner in = new Scanner(System.in);
+        System.out.print("Enter a number : ");
+        int n = in.nextInt();
+        for (int i=1; i<=n; i++){
+            System.out.print(i+ " ");
         }
     }
 }
