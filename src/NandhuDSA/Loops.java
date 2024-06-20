@@ -39,13 +39,13 @@ public class Loops {
         // do while loop
         // syntax
 //        do {
-//
+            // body
 //        }while ();
 
         int num = 1;
         do {
             System.out.println(num);
             num++;
-        }while (num<=5);
+        }while (num>=5);
     }
 }
