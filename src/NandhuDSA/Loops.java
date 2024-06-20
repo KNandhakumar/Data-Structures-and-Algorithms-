@@ -30,10 +30,22 @@ public class Loops {
 //        }
 
         // Question : Print numbers from 1 to 5
+//        int num = 1;
+//        while (num<=5){
+//            System.out.println(num);
+//            num++;
+//        }
+
+        // do while loop
+        // syntax
+//        do {
+//
+//        }while ();
+
         int num = 1;
-        while (num<=100){
+        do {
             System.out.println(num);
             num++;
-        }
+        }while (num<=5);
     }
 }
