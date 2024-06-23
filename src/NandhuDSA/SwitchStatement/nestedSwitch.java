@@ -3,7 +3,7 @@ package NandhuDSA.SwitchStatement;
 import java.util.Scanner;
 
 public class nestedSwitch {
-    public static void main(String[] args) {
+    public static void switchStatement(String[] args) {
         Scanner in = new Scanner(System.in);
         int empId = in.nextInt();
         String department = in.next();
