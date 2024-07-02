@@ -2,13 +2,17 @@ package NandhuDSA.Patterns;
 
 public class startPattern {
     public static void main(String[] args) {
-        starPattern1();
-        System.out.println("---------");
-        starPattern2_1(5);
-        System.out.println("---------");
-        starPattern3(5);
-        System.out.println("---------");
-        starPattern4(5);
+//        starPattern1();
+//        System.out.println("---------");
+//        starPattern2_1(5);
+//        System.out.println("---------");
+//        starPattern3(5);
+//        System.out.println("---------");
+//        starPattern4(5);
+//        System.out.println("---------");
+//        starPattern5(5);
+//        System.out.println("---------");
+        starPattern6(5);
     }
     // --------------------------------------------------------------------------------------
 
@@ -110,6 +114,68 @@ public class startPattern {
         for (int i = 1; i <=num; i++) {
             for (int j = 1; j <=i; j++) {
                 System.out.print(i + " ");
+            }
+            System.out.println();
+        }
+    }
+    // --------------------------------------------------------------------------------------
+
+    /*
+
+     *
+     **
+     ***
+     ****
+     *****
+     ****
+     ***
+     **
+     *
+
+
+     */
+
+
+    // pattern 5
+    static void starPattern5(int num){
+        for (int i = 1; i < 2*num; i++) {
+            int totalColInRow = i>num ? 2*num - i : i;
+            for (int j = 0; j <totalColInRow; j++) {
+                System.out.print("*");
+            }
+            System.out.println();
+        }
+    }
+    // --------------------------------------------------------------------------------------
+
+    /*
+
+     *
+     * *
+     * * *
+     * * * *
+     * * * * *
+     * * * *
+     * * *
+     * *
+     *
+
+
+     */
+
+
+    // pattern 6
+    static void starPattern6(int num){
+        for (int i = 1; i < 2*num; i++) {
+            int totalColInRow = i>num ? 2*num - i : i;
+
+            // spaces
+            int spaces = num - totalColInRow;
+            for (int s = 0; s <spaces; s++) {
+                System.out.print(" ");
+            }
+            for (int j = 0; j <totalColInRow; j++) {
+                System.out.print("* ");
             }
             System.out.println();
         }
