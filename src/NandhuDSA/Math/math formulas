@@ -1,0 +1,8 @@
+* prime number -> prime number is divisible only 1 and itself that is prime number.
+Example : (13 is a prime number because 13 it divisible only 1 and itself) , (12 not prime number because it divisible 2*6, 3*2 so this is not prime number)
+
+* palindrome -> palindrome is reverse the number give the original number so that is palindrome.
+Example : (121 reverse the number 121 this this is palindrome) , (123 reverse this number 321 so this is not palindrome)
+
+* armstrong -> armstrong is cube the number it gives same number that is armstrong number.
+Example : (371 cube this like 1¹, 7⁷, 3³ 371 so this is armstrong number)
