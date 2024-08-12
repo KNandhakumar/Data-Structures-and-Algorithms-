@@ -1,0 +1,11 @@
+• Data Hiding: Encapsulation hides the internal state of an object by making its variables private.
+
+• Controlled Access: Public getter and setter methods are used to access and modify the private variables.
+
+• Improved Security: Encapsulation protects an object’s data from unauthorized access and unwanted modifications.
+
+• Flexibility: You can change the internal implementation of the class without affecting other classes that use it.
+
+• Code Maintainability: Encapsulation helps in maintaining and modifying code easily, as changes are localized within the class.
+
+• Validation: Encapsulation allows for validation or logic checks inside setter methods before setting a variable’s value.
