@@ -1,0 +1,7 @@
+• An abstract class in Java cannot be instantiated on its own; it is designed to be subclassed.
+
+• Contains both abstract methods (without a body) and concrete methods (with a body).
+
+• Provides a common base for subclasses, allowing them to share code.
+
+• Enables subclasses to provide specific implementations for the abstract methods.
