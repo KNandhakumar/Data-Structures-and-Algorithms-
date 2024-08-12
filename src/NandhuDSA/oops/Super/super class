@@ -1,0 +1,11 @@
+In Java, the super keyword is used to refer to the immediate parent class of the current class.
+It has two main usages :
+
+1.Accessing Parent Class Constructor:
+super() can be used to call the constructor of the parent class from the child class constructor.
+
+2.Accessing Parent Class Methods and Variables:
+super can also be used to access methods or variables of the parent class that are overridden in the child class.
+
+In summary, super is used in Java to interact with the parent class, whether by calling its
+constructor or accessing its methods and variables.
